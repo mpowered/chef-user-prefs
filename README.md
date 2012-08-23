@@ -15,7 +15,7 @@ Attributes
     {
       "id": "bofh",
       "dotfiles_repo": {
-        "url" : "https://github.com/username/dotfiles.git",
+        "url" : "https://github.com/bofh/dotfiles.git",
         "install" : "command_to_install_dotfiles"
       }
     }

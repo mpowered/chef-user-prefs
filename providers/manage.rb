@@ -30,8 +30,8 @@ action :create do
         end
 
         if repo_attrs['install']
-          execute "install #{repo_name}" do
-            command repo_attrs['install']
+          execute "install #{repo_dir}/#{repo_name}" do
+            command "#{repo_dir}/#{repo_attrs['install']}"
             cwd repo_dir
             action :run
           end
