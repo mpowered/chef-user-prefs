@@ -34,6 +34,7 @@ action :create do
             command "#{repo_dir}/#{repo_attrs['install']}"
             cwd repo_dir
             action :run
+            user u['id']
           end
         end
       end
