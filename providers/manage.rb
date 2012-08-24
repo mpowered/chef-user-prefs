@@ -27,6 +27,7 @@ action :create do
           reference ref
           action :sync
           user u['id']
+          group u['id']
         end
 
         if repo_attrs['install']
